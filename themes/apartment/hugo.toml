@@ -1,11 +1,24 @@
-baseURL = 'https://example.org/'
+baseURL = "https://example.org/"
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Apartment Theme Demo'
 
-[[menus.main]]
-name = 'Home'
-pageRef = '/'
-weight = 10
+[params]
+  author = "Hugo Themes"
+  description = "Example site built with Hugo and the Apartment theme."
+
+[menu]
+  [[menu.main]]
+    name = 'About'
+    pageRef = '/about'
+    weight = 20
+  [[menu.main]]
+    name = 'Gallery'
+    pageRef = '/gallery'
+    weight = 25
+  [[menu.main]]
+    name = 'Contact'
+    pageRef = '/contact'
+    weight = 30
 
 [[menus.main]]
 name = 'Posts'

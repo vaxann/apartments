@@ -4,8 +4,23 @@ other = "Сва права задржана."
 [learnMore]
 other = "Сазнајте више"
 
+[viewGallery]
+other = "Погледај галерију"
+
+[apartmentTour]
+other = "Виртуелна тура"
+
+[videoNotSupported]
+other = "Ваш прегледач не подржава репродукцију видеа."
+
+[videoDescription]
+other = "Направите виртуелну туру овог прелепог стана са свим погодностима и карактеристикама."
+
 [mainFeatures]
 other = "Главне карактеристике"
+
+[keyFeatures]
+other = "Кључне карактеристике"
 
 [location]
 other = "Локација"
@@ -24,6 +39,21 @@ other = "Стање"
 
 [conditionDesc]
 other = "Свежа реновација, спремно за усељење"
+
+[price]
+other = "Цена"
+
+[priceDesc]
+other = "Конкурентна цена, могућност преговарања"
+
+[readyToVisit]
+other = "Спремни за обилазак?"
+
+[contactUsToday]
+other = "Контактирајте нас данас да закажете обилазак или добијете више информација."
+
+[getInTouch]
+other = "Ступите у контакт"
 
 [privateNotice]
 other = "За детаљне информације контактирајте власника"
