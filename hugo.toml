@@ -32,10 +32,10 @@ defaultContentLanguageInSubdir = true
   [languages.ru]
     languageCode = 'ru-ru'
     languageName = 'Русский'
-    title = 'Квартира на продажу'
+    title = 'Квартира в аренду в Бигово, Черногория'
     weight = 2
     [languages.ru.params]
-      description = "Продается уютная квартира в центре города"
+      description = "Yютная квартира в центре города"
     [languages.ru.menu]
       [[languages.ru.menu.main]]
         name = "Главная"
