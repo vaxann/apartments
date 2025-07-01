@@ -1,0 +1,11 @@
+name = "apartment-site"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./public"
+
+[build]
+command = "hugo --minify"
+
+[build.upload]
+format = "service-worker"

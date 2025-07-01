@@ -1,0 +1,25 @@
+baseURL = 'https://your-site.pages.dev/'
+languageCode = 'ru-ru'
+title = 'Квартира на продажу'
+theme = 'apartment'
+
+[params]
+  description = "Продается уютная квартира в центре города"
+  
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "О квартире"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Фотографии"
+    url = "/gallery/"
+    weight = 3
+  [[menu.main]]
+    name = "Контакты"
+    url = "/contact/"
+    weight = 4
