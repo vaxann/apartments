@@ -1,0 +1,98 @@
+[allRightsReserved]
+other = "Все права защищены."
+
+[learnMore]
+other = "Подробнее"
+
+[mainFeatures]
+other = "Основные преимущества"
+
+[location]
+other = "Расположение"
+
+[locationDesc]
+other = "Центр города, развитая инфраструктура"
+
+[layout]
+other = "Планировка"
+
+[layoutDesc]
+other = "Просторные комнаты, удобная планировка"
+
+[condition]
+other = "Состояние"
+
+[conditionDesc]
+other = "Свежий ремонт, готова к проживанию"
+
+[privateNotice]
+other = "Для просмотра детальной информации обратитесь к владельцу"
+
+[apartmentDescription]
+other = "Описание квартиры"
+
+[mainCharacteristics]
+other = "Основные характеристики"
+
+[totalArea]
+other = "Общая площадь"
+
+[numberOfRooms]
+other = "Количество комнат"
+
+[floor]
+other = "Этаж"
+
+[yearBuilt]
+other = "Год постройки"
+
+[buildingType]
+other = "Тип дома"
+
+[apartmentLocation]
+other = "Расположение"
+
+[apartmentCondition]
+other = "Состояние"
+
+[additionalAdvantages]
+other = "Дополнительные преимущества"
+
+[contactUs]
+other = "Свяжитесь с нами"
+
+[contactInfo]
+other = "Контактная информация"
+
+[phone]
+other = "Телефон"
+
+[email]
+other = "Электронная почта"
+
+[workingHours]
+other = "Время работы"
+
+[viewingAddress]
+other = "Адрес для просмотра"
+
+[additionalInfo]
+other = "Дополнительная информация"
+
+[photoGallery]
+other = "Фотогалерея"
+
+[livingRoom]
+other = "Гостиная"
+
+[kitchen]
+other = "Кухня"
+
+[bedroom]
+other = "Спальня"
+
+[bathroom]
+other = "Ванная комната"
+
+[viewFromWindow]
+other = "Вид из окна"

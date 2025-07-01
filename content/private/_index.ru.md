@@ -10,14 +10,14 @@ draft: false
 
 ### Документы
 
-- [Технический паспорт](/private/documents/)
-- [План квартиры](/private/floor-plan/)
-- [Финансовая информация](/private/financial/)
+- [Технический паспорт](/ru/private/documents/)
+- [План квартиры](/ru/private/floor-plan/)
+- [Финансовая информация](/ru/private/financial/)
 
 ### Детальные фотографии
 
-- [Полная фотогалерея](/private/full-gallery/)
-- [Фотографии документов](/private/documents-photos/)
+- [Полная фотогалерея](/ru/private/full-gallery/)
+- [Фотографии документов](/ru/private/documents-photos/)
 
 ### Контактная информация владельца
 
