@@ -1,0 +1,11 @@
+baseURL = "https://<YOUR_CLOUDFLARE_PAGES_URL>"
+languageCode = "ru-ru"
+title = "Описание квартиры"
+# Use Hugo module to fetch the Ananke theme automatically on build
+[module]
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke"
+
+# Enable syntax highlighting & other useful settings
+pygmentsUseClasses = true
+enableRobotsTXT = true
