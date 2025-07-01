@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="hero">
+    <h1>{{ .Site.Title }}</h1>
+    <p class="lead">{{ .Site.Params.description }}</p>
+    <a href="{{ "about" | relLangURL }}" class="btn">{{ i18n "learnMore" | default "Learn More" }}</a>
+</div>
+
+<section class="features">
+    <h2>{{ i18n "mainFeatures" | default "Main Features" }}</h2>
+    <div class="features-grid">
+        <div class="feature">
+            <h3>📍 {{ i18n "location" | default "Location" }}</h3>
+            <p>{{ i18n "locationDesc" | default "City center, developed infrastructure" }}</p>
+        </div>
+        <div class="feature">
+            <h3>🏠 {{ i18n "layout" | default "Layout" }}</h3>
+            <p>{{ i18n "layoutDesc" | default "Spacious rooms, convenient layout" }}</p>
+        </div>
+        <div class="feature">
+            <h3>🔧 {{ i18n "condition" | default "Condition" }}</h3>
+            <p>{{ i18n "conditionDesc" | default "Fresh renovation, ready to move in" }}</p>
+        </div>
+    </div>
+</section>
+
+{{ if .Site.GetPage "/private" }}
+<section class="private-notice">
+    <p>{{ i18n "privateNotice" | default "For detailed information, please contact the owner" }}</p>
+</section>
+{{ end }}
+{{ end }}

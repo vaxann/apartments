@@ -1,0 +1,80 @@
+baseURL = 'https://apartment.abramenko.me/'
+theme = 'apartment'
+defaultContentLanguage = 'en'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageCode = 'en-us'
+    languageName = 'English'
+    title = 'Apartment for Sale'
+    weight = 1
+    [languages.en.params]
+      description = "Beautiful apartment for sale in the city center"
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+      [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+      [[languages.en.menu.main]]
+        name = "Gallery"
+        url = "/gallery/"
+        weight = 3
+      [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 4
+
+  [languages.ru]
+    languageCode = 'ru-ru'
+    languageName = 'Русский'
+    title = 'Квартира на продажу'
+    weight = 2
+    [languages.ru.params]
+      description = "Продается уютная квартира в центре города"
+    [languages.ru.menu]
+      [[languages.ru.menu.main]]
+        name = "Главная"
+        url = "/ru/"
+        weight = 1
+      [[languages.ru.menu.main]]
+        name = "О квартире"
+        url = "/ru/about/"
+        weight = 2
+      [[languages.ru.menu.main]]
+        name = "Фотографии"
+        url = "/ru/gallery/"
+        weight = 3
+      [[languages.ru.menu.main]]
+        name = "Контакты"
+        url = "/ru/contact/"
+        weight = 4
+
+  [languages.sr]
+    languageCode = 'sr-rs'
+    languageName = 'Српски'
+    title = 'Стан на продају'
+    weight = 3
+    [languages.sr.params]
+      description = "Продаје се леп стан у центру града"
+    [languages.sr.menu]
+      [[languages.sr.menu.main]]
+        name = "Почетна"
+        url = "/sr/"
+        weight = 1
+      [[languages.sr.menu.main]]
+        name = "О стану"
+        url = "/sr/about/"
+        weight = 2
+      [[languages.sr.menu.main]]
+        name = "Галерија"
+        url = "/sr/gallery/"
+        weight = 3
+      [[languages.sr.menu.main]]
+        name = "Контакт"
+        url = "/sr/contact/"
+        weight = 4
