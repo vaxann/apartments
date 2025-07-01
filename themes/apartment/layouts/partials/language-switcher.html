@@ -1,0 +1,18 @@
+{{ $currentLang := .Site.Language.Lang }}
+{{ $currentPage := . }}
+
+<div class="language-switcher">
+  {{ if .IsTranslated }}
+  {{ range .Translations }}
+  <a href="{{ .RelPermalink }}" class="lang-link">{{ .Language.LanguageName }}</a>
+  {{ end }}
+  {{ end }}
+
+  {{ range $.Site.Languages }}
+  {{ if eq $.Site.Language.Lang .Lang }}
+  <span class="lang-current">{{ .LanguageName }}</span>
+  {{ else if not $.IsTranslated }}
+  <a href="/{{ .Lang }}/" class="lang-link">{{ .LanguageName }}</a>
+  {{ end }}
+  {{ end }}
+</div>

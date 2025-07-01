@@ -10,7 +10,7 @@ homepage = 'https://github.com/owner/repo'
 demosite = 'https://owner.github.io/repo'
 
 # Taxonomy terms
-tags = ['blog', 'company']
+tags = ['company', 'real-estate', 'apartment']
 features = ['some', 'awesome', 'features']
 
 # If the theme has multiple authors

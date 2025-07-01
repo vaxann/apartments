@@ -1,7 +1,7 @@
 baseURL = 'https://apartment.abramenko.me/'
 theme = 'apartment'
 defaultContentLanguage = 'en'
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [languages]
   [languages.en]
@@ -14,19 +14,19 @@ defaultContentLanguageInSubdir = false
     [languages.en.menu]
       [[languages.en.menu.main]]
         name = "Home"
-        url = "/"
+        url = "/en/"
         weight = 1
       [[languages.en.menu.main]]
         name = "About"
-        url = "/about/"
+        url = "/en/about/"
         weight = 2
       [[languages.en.menu.main]]
         name = "Gallery"
-        url = "/gallery/"
+        url = "/en/gallery/"
         weight = 3
       [[languages.en.menu.main]]
         name = "Contact"
-        url = "/contact/"
+        url = "/en/contact/"
         weight = 4
 
   [languages.ru]

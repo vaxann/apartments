@@ -2,11 +2,36 @@
 <div class="hero">
     <h1>{{ .Site.Title }}</h1>
     <p class="lead">{{ .Site.Params.description }}</p>
-    <a href="{{ "about" | relLangURL }}" class="btn">{{ i18n "learnMore" | default "Learn More" }}</a>
+    <div style="margin-top: 24px; display: flex; gap: 16px; justify-content: center;">
+        <a href="{{ "about" | relLangURL }}" class="btn">{{ i18n "learnMore" | default "Learn More" }}</a>
+        <a href="{{ "gallery" | relLangURL }}" class="btn btn-secondary">{{ i18n "viewGallery" | default "View Gallery" }}</a>
+    </div>
 </div>
 
+{{ if .Content }}
+<section class="content">
+    {{ .Content }}
+</section>
+{{ end }}
+
+<section class="video-section">
+    <div class="video-container">
+        <h2>{{ i18n "apartmentTour" | default "Apartment Tour" }}</h2>
+        <div class="video-wrapper">
+            <!-- Replace with actual video URL -->
+            <video controls poster="/images/apartment-poster.jpg">
+                <source src="/videos/apartment-tour.mp4" type="video/mp4">
+                <p>{{ i18n "videoNotSupported" | default "Your browser doesn't support video playback." }}</p>
+            </video>
+        </div>
+        <p style="margin-top: 16px; color: #656d76; font-size: 14px;">
+            {{ i18n "videoDescription" | default "Take a virtual tour of this beautiful apartment with all its amenities and features." }}
+        </p>
+    </div>
+</section>
+
 <section class="features">
-    <h2>{{ i18n "mainFeatures" | default "Main Features" }}</h2>
+    <h2>{{ i18n "keyFeatures" | default "Key Features" }}</h2>
     <div class="features-grid">
         <div class="feature">
             <h3>📍 {{ i18n "location" | default "Location" }}</h3>
@@ -20,12 +45,18 @@
             <h3>🔧 {{ i18n "condition" | default "Condition" }}</h3>
             <p>{{ i18n "conditionDesc" | default "Fresh renovation, ready to move in" }}</p>
         </div>
+        <div class="feature">
+            <h3>💰 {{ i18n "price" | default "Price" }}</h3>
+            <p>{{ i18n "priceDesc" | default "Competitive pricing, negotiable" }}</p>
+        </div>
     </div>
 </section>
 
-{{ if .Site.GetPage "/private" }}
-<section class="private-notice">
-    <p>{{ i18n "privateNotice" | default "For detailed information, please contact the owner" }}</p>
+<section style="text-align: center; margin-top: 48px;">
+    <div style="background-color: #ffffff; border: 1px solid #d1d9e0; border-radius: 12px; padding: 32px;">
+        <h2 style="margin-bottom: 16px;">{{ i18n "readyToVisit" | default "Ready to Visit?" }}</h2>
+        <p style="color: #656d76; margin-bottom: 24px;">{{ i18n "contactUsToday" | default "Contact us today to schedule a viewing or get more information." }}</p>
+        <a href="{{ "contact" | relLangURL }}" class="btn">{{ i18n "getInTouch" | default "Get in Touch" }}</a>
+    </div>
 </section>
-{{ end }}
 {{ end }}

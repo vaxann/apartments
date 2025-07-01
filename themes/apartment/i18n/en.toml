@@ -4,8 +4,23 @@ other = "All rights reserved."
 [learnMore]
 other = "Learn More"
 
+[viewGallery]
+other = "View Gallery"
+
+[apartmentTour]
+other = "Apartment Tour"
+
+[videoNotSupported]
+other = "Your browser doesn't support video playback."
+
+[videoDescription]
+other = "Take a virtual tour of this beautiful apartment with all its amenities and features."
+
 [mainFeatures]
 other = "Main Features"
+
+[keyFeatures]
+other = "Key Features"
 
 [location]
 other = "Location"
@@ -24,6 +39,21 @@ other = "Condition"
 
 [conditionDesc]
 other = "Fresh renovation, ready to move in"
+
+[price]
+other = "Price"
+
+[priceDesc]
+other = "Competitive pricing, negotiable"
+
+[readyToVisit]
+other = "Ready to Visit?"
+
+[contactUsToday]
+other = "Contact us today to schedule a viewing or get more information."
+
+[getInTouch]
+other = "Get in Touch"
 
 [privateNotice]
 other = "For detailed information, please contact the owner"
