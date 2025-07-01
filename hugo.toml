@@ -1,0 +1,30 @@
+baseURL = 'https://apartment-showcase.pages.dev'
+languageCode = 'ru-RU'
+title = 'Описание квартиры'
+defaultContentLanguage = 'ru'
+theme = 'apartment'
+
+[params]
+  description = "Уютная квартира с прекрасным видом"
+  author = "Владелец"
+
+[menu]
+  [[menu.main]]
+    name = "Главная"
+    url = "/"
+    weight = 10
+  
+  [[menu.main]]
+    name = "Фотогалерея"
+    url = "/gallery/"
+    weight = 20
+  
+  [[menu.main]]
+    name = "Планировка"
+    url = "/layout/"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

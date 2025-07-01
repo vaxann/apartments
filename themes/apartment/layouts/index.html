@@ -1,0 +1,112 @@
+{{ define "main" }}
+<!-- Hero Section -->
+<section class="hero-section bg-primary text-white">
+    <div class="container">
+        <div class="row align-items-center min-vh-75">
+            <div class="col-lg-6">
+                <h1 class="display-3 fw-bold mb-4">{{ .Site.Title }}</h1>
+                <p class="lead mb-4">{{ .Site.Params.Description }}</p>
+                <div class="d-flex gap-3">
+                    <a href="#features" class="btn btn-light btn-lg">Подробнее</a>
+                    <a href="/gallery/" class="btn btn-outline-light btn-lg">Фотогалерея</a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <img src="/images/main-photo.jpg" class="img-fluid rounded shadow-lg" alt="Главное фото квартиры">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-5">
+    <div class="container">
+        <div class="row text-center mb-5">
+            <div class="col-lg-8 mx-auto">
+                <h2 class="display-5 fw-bold mb-3">Особенности квартиры</h2>
+                <p class="lead text-muted">Комфортная жизнь в центре города</p>
+            </div>
+        </div>
+        
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-bed fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Спальные места</h5>
+                        <p class="card-text">Удобные спальни с ортопедическими матрасами</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-wifi fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Интернет</h5>
+                        <p class="card-text">Высокоскоростной Wi-Fi по всей квартире</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body text-center p-4">
+                        <i class="fas fa-car fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Парковка</h5>
+                        <p class="card-text">Собственное парковочное место</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Quick Info Section -->
+<section class="bg-light py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h3 class="fw-bold mb-4">Основная информация</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Площадь: 75 м²</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Комнаты: 2</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Этаж: 5 из 9</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Лифт: есть</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Балкон: есть</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h3 class="fw-bold mb-4">Удобства</h3>
+                <ul class="list-unstyled">
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Кондиционер</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Стиральная машина</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Посудомоечная машина</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Микроволновая печь</li>
+                    <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>Телевизор</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-5">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <h3 class="fw-bold mb-4">Готовы посмотреть квартиру?</h3>
+                <p class="lead mb-4">Свяжитесь с нами для организации просмотра</p>
+                <div class="d-flex justify-content-center gap-3">
+                    <a href="tel:+79001234567" class="btn btn-primary btn-lg">
+                        <i class="fas fa-phone me-2"></i>Позвонить
+                    </a>
+                    <a href="mailto:info@apartment.com" class="btn btn-outline-primary btn-lg">
+                        <i class="fas fa-envelope me-2"></i>Email
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

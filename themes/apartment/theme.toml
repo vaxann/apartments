@@ -1,0 +1,8 @@
+name = "Apartment Theme"
+license = "MIT"
+description = "A custom theme for apartment showcase"
+homepage = ""
+min_version = "0.120.0"
+
+[author]
+  name = "Apartment Owner"
